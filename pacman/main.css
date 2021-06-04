@@ -1,0 +1,47 @@
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    height: 560px;
+    border: solid black;
+}
+
+.grid div{
+    width: 20px;
+    height: 20px;
+}
+
+.pac-food{
+    background-color: green;
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+.wall{
+    background-color: blue;
+}
+
+.power-up{
+    background-color: green;
+    border-radius: 10px;
+
+}
+
+.ghost1{
+    background-color: red;
+    border: 0px;
+}
+
+.ghost2{
+    background-color: pink;
+    border: 0px;
+}
+
+.ghost3{
+    background-color: cyan;
+    border: 0px;
+}
+.ghost4{
+    background-color: orange;
+    border: 0px;
+}
